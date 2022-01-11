@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bttn{
+    background: #FF0043;
+    color:#fff;
+    border: none;
+    width: 100px;
+    border-radius: 23px;
+    height: 40px;
+}
+.bttn:hover{
+    background: #fff;
+    color:#FF0043;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.left h2{
+    align-items: center;
+    font-size: 45px;
+    width: 100%;
+    padding-top: 130px;
+}
+.left p{
+    align-items: center;
+    color:gray;
+}
+.murad{
+    margin-top: 30px;
+    width: 255px;
+    height: 40px;
+    background: #FF0043;
+    border: none;
+    border-radius:30px;
+    color:#FF0043;
+}
+.murad:hover{
+    background: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cards{
+    margin-bottom: 100px;
+    margin-top: 100px;
+ display: flex;
+ justify-content: space-around;
+    width: 100%;
+}
+.card-text{
+    color:gray;
+}
+.card-body img{
+    margin-bottom: 20px;
+}
+.last p{
+    padding-top: 20px;
+    color:gray;
+}
+.father{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.text1{
+    padding-top: 170px;
+}
+.on p{
+    color:gray;
+}
+.text2{
+    margin-top: 30px;
+}
+.text3{
+    margin-top: 40px;
+}
+.glav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.glav h2{
+    margin-top: 100px;
+}
+.ong {
+    width: 50%;
+}
+.ong h2{
+    padding-top: 150px !important;
+}
+.ong p{
+    color:gray;
+    margin-top: 100px;
+}
+.blue{
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    background: #00194A;
+    margin-bottom: 50px;
+    border-radius:30px;
+    color:white;
+}
+.blue h1{
+    text-align: center;
+    padding-top: 60px;
+}
+.blue p{
+    margin-top: 60px;
+}
+.lasst{
+    margin-top: 30px;
+    width: 275px;
+    height: 60px;
+    border-radius:30px;
+    background: #FF0043;
+    color: white;
+    border:none;
+}
+.lasst:hover{
+    background:#00194A;
+    color: #FF0043;
+}
+.navs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+@media (max-width:500px) {
+    .box{
+        display: block;
+    }
+    .right{
+        width: 300px;
+    }
+    .cards{
+        display: block;
+        margin-left: 50px;
+    }
+    .father{
+        display: block;
+    }
+    .leader img{
+        width: 300px !important;
+    }
+    .glav{
+        display: block;
+    }
+    .cap img{
+        width: 300px;
+    }
+    .chap img{
+        width: 300px;
+    }
+    .ong{
+        margin-left: 80px;
+    }
+}
+@media (max-width:1024px) {
+    .leader img{
+        width: 900px;
+    }
+}
+@media (max-width:768px) {
+    .father{
+        display: block;
+    }
+    .leader img{
+        width: 700px;
+    }
+}
